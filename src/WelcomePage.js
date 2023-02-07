@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import welcomeImg from "../images/welcome.png";
+import welcomeImg from "./welcome.png";
 
 function WelcomePage() {
   return (

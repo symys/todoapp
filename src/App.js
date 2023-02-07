@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import TodoPage from "./components/TodoPage";
-import WelcomePage from "./components/WelcomePage";
+import TodoPage from "./TodoPage";
+import WelcomePage from "./WelcomePage";
 
 function App() {
   return (

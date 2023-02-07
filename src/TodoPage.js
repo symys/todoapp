@@ -1,9 +1,9 @@
 import React from "react";
 import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { addTask, deleteTask } from "../taskSlice";
+import { addTask, deleteTask } from "./taskSlice";
 import { useRef } from "react";
-import todoImg from "../images/todopage.png";
+import todoImg from "./todopage.png";
 import TaskCard from "./TaskCard";
 
 let keyCounter = 0;
@@ -69,7 +69,7 @@ function TodoPage() {
               onChange={handleCategory}
               className="lg:w-[8em] w-[6em] lg:h-10 h-8 pl-2 pr-2 pt-1 pb-1 ml-1 text-gray-500 text-opacity-80 bg-white bg-opacity-80 rounded-xl lg:text-base text-sm shadow-sm outline-none appearance-none font-semibold"
             >
-              {CATEGORIES.map((category) => {
+              {CATEGORIES.forEach((category) => {
                 if (category !== "All")
                   return (
                     <option key={category} value={category}>
