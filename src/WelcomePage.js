@@ -7,15 +7,15 @@ function WelcomePage() {
     <div className="flex lg:flex-row flex-col w-full p-10 bg-gradient-to-tl from-green-300 to-purple-400 font-secular">
       <div className="flex flex-col basis-1/2 self-center lg:pl-10 pl-4">
         <div>
-          <div className=" lg:text-6xl text-4xl text-white">Be more productive</div>
-          <div className=" lg:text-6xl text-4xl text-white">every day!</div>
-          <div className="lg:text-2xl text-xl text-white mt-8 flex gap-2 flex-col">
+          <div className=" lg:text-6xl text-3xl text-white">Be more productive</div>
+          <div className=" lg:text-6xl text-3xl text-white">every day!</div>
+          <div className="lg:text-2xl text-lg text-white mt-8 flex gap-2 flex-col">
             <p>Focus on the right to-do task at the right time</p>
             <p>Keep track of everything with simple grouping</p>
           </div>
         </div>
 
-        <div className="flex flex-row gap-3 pt-10">
+        <div className="flex flex-row gap-3 pt-10 self-center">
           <div>
             <a href="https://www.eisenhower.me/eisenhower-matrix/" target="_blank" rel="noreferrer"><button
               type="button"

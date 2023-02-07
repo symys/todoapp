@@ -96,7 +96,7 @@ function TodoPage() {
                 value={category}
                 onClick={(e) => setCategory(e.target.value)}
                 key={`${category}${index}`}
-                className="lg:text-sm text-xs text-purple-600 lg:w-32 w-20 rounded-xl box-border p-2 transition-all duration-250 bg-white bg-opacity-70 hover:bg-gradient-to-tl from-blue-500 to-purple-400 hover:text-gray-200 uppercase font-semibold tracking-wide"
+                className="lg:text-sm text-xs text-purple-600 md:w-32 w-[5em] rounded-xl box-border p-2 transition-all duration-250 bg-white bg-opacity-70 hover:bg-gradient-to-tl from-blue-500 to-purple-400 hover:text-gray-200 lg:uppercase font-semibold lg:tracking-wide"
               >
                 {category}
               </button>
@@ -104,7 +104,7 @@ function TodoPage() {
           })}
         </div>
 
-        <div className="flex flex-col lg:w-[41em] sm:w-[30em] w-[18em] mt-1 flex flex-col bg-white bg-opacity-70 h-[28em] rounded-xl bg-clip-padding backdrop-filter backdrop-blur-md uppercase scrollbar scrollbar-thumb-gray-900 scrollbar-track-gray-100 overflow-y-auto">
+        <div className="flex flex-col lg:w-[41em] sm:w-[30em] w-[20em] self-center mt-1 flex flex-col bg-white bg-opacity-70 h-[28em] rounded-xl bg-clip-padding backdrop-filter backdrop-blur-md uppercase scrollbar scrollbar-thumb-gray-900 scrollbar-track-gray-100 overflow-y-auto">
           <div className="mt-4">
             {filteredTasks.map((task) => {
               return (
