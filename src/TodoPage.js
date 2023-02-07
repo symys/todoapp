@@ -76,6 +76,7 @@ function TodoPage() {
                       {category}
                     </option>
                   );
+                  return null;
               })}
             </select>
 
