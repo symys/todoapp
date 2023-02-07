@@ -5,7 +5,7 @@ import welcomeImg from "./welcome.png";
 function WelcomePage() {
   return (
     <div className="flex lg:flex-row flex-col w-full p-10 bg-gradient-to-tl from-green-300 to-purple-400 font-secular">
-      <div className="flex flex-col basis-1/2 self-center lg:pl-10 pl-4">
+      <div className="flex flex-col basis-1/2 self-center lg:pl-10 pl-2">
         <div>
           <div className=" lg:text-6xl text-3xl text-white">Be more productive</div>
           <div className=" lg:text-6xl text-3xl text-white">every day!</div>
@@ -15,7 +15,7 @@ function WelcomePage() {
           </div>
         </div>
 
-        <div className="flex flex-row gap-3 pt-10 self-center">
+        <div className="flex flex-row gap-3 pt-10 md:ml-0 ml-[1em] ">
           <div>
             <a href="https://www.eisenhower.me/eisenhower-matrix/" target="_blank" rel="noreferrer"><button
               type="button"

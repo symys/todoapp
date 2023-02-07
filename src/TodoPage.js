@@ -119,7 +119,7 @@ function TodoPage() {
                       dispatch(deleteTask(`${task.category}${task.task}`))
                     }
                   >
-                    <button className="lg:pl-6 pl-4 pt-2 font-bold lg:text-xl text-base">X</button>
+                    <button className="lg:pl-6 pl-1 lg:pt-2 pt-1 font-bold lg:text-xl text-base">X</button>
                   </div>
                 </div>
               );
