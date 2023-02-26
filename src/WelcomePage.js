@@ -25,12 +25,12 @@ function WelcomePage() {
             </button></a>
           </div>
           <div>
-            <Link to="todo">
+            <Link to="login">
             <button
               type="button"
               className="text-sm text-white mb-8 rounded-xl box-border p-3 transition-all duration-250 bg-[#ff8500] hover:bg-[#fca016] sm:text-xl m-2"
             >
-              START TO-DO
+              SIGNUP / LOGIN
             </button></Link>
           </div>
         </div>
