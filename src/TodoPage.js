@@ -53,8 +53,8 @@ const logout = () => {
   signOut(auth).then(() => {
     navigate("/")
   }).catch((error) => {
-    // eslint-disable-next-line no-alert
-    alert(error)
+    // eslint-disable-next-line no-console
+    console.log(error)
   });
 }
 

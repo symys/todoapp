@@ -17,16 +17,17 @@ function LoginPage() {
     createUserWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         const user = userCredential.user;
-        // eslint-disable-next-line no-alert
-        alert("welcome" + user)
+        // eslint-disable-next-line no-console
+        console.log(user)
         setEmail("");
         setPassword("");
+        // eslint-disable-next-line no-alert
         alert("Sign up successfully!");
       })
       .catch((error) => {
         const errorMessage = error.message;
-        // eslint-disable-next-line no-alert
-        alert(errorMessage);
+        // eslint-disable-next-line no-console
+        console.log(errorMessage);
       });
   };
 
@@ -34,16 +35,16 @@ function LoginPage() {
     signInWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         const user = userCredential.user;
-        // eslint-disable-next-line no-alert
-        alert("welcome" + user)
+        // eslint-disable-next-line no-console
+        console.log(user)
         setEmail("");
         setPassword("");
         navigate("/todo")
       })
       .catch((error) => {
         const errorMessage = error.message;
-        // eslint-disable-next-line no-alert
-        alert(errorMessage);
+         // eslint-disable-next-line no-console
+         console.log(errorMessage);
       });
   };
 
