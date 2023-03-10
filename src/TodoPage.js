@@ -25,7 +25,7 @@ function TodoPage() {
   const navigate = useNavigate();
 
   const [selectedCategory, setCategory] = useState("All");
-  const [itemCategory, handleCategoryChange] = useState("DO FIRST");
+  const [itemCategory, handleCategoryChange] = useState("Do First");
 
   const textVal = useRef();
 
