@@ -26,6 +26,7 @@ function LoginPage() {
       })
       .catch((error) => {
         const errorMessage = error.message;
+        alert(errorMessage)
         // eslint-disable-next-line no-console
         console.log(errorMessage);
       });
@@ -43,6 +44,7 @@ function LoginPage() {
       })
       .catch((error) => {
         const errorMessage = error.message;
+        alert(errorMessage)
          // eslint-disable-next-line no-console
          console.log(errorMessage);
       });

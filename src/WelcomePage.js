@@ -17,12 +17,12 @@ function WelcomePage() {
 
         <div className="flex flex-row gap-3 pt-10 md:ml-0 ml-[1em] ">
           <div>
-            <a href="https://www.eisenhower.me/eisenhower-matrix/" target="_blank" rel="noreferrer"><button
+            <Link to="todo"><button
               type="button"
               className="text-sm text-white mb-8 rounded-xl box-border p-3 transition-all duration-250 bg-[#218aa6] hover:bg-[#22a8cc] sm:text-xl m-2 "
             >
-              SEE GROUPS
-            </button></a>
+              SEE DEMO
+            </button></Link>
           </div>
           <div>
             <Link to="login">
@@ -34,6 +34,8 @@ function WelcomePage() {
             </button></Link>
           </div>
         </div>
+
+        <a href="https://www.eisenhower.me/eisenhower-matrix/" target="_blank" rel="noreferrer"> <div className="underline text-blue-800 lg:text-base text-smcursor-pointer lg:mt-10 mt-4">For more information about the grouping philosophy used in task manager</div></a>
       </div>
 
       <div className="basis-1/2 self-center lg:pr-10 pr-4 pt-10 mb-20">
