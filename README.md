@@ -1,8 +1,9 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![hoomie.gif](https://github.com/symys/todoapp/blob/main/src/images/todo.gif)
 
-## Available Scripts
+## Installation
+After clonning the project, you should run:
+### `npm install`
 
 In the project directory, you can run:
 
